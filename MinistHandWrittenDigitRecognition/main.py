@@ -56,9 +56,9 @@ def train():
             torch.save(optimizer.state_dict(),"./model/optimizer.pkl")
             print("损失值为：%.2f" % loss.item())
 
-# 加载保存模型的参数
+# 模型保存
 if os.path.exists('./model/model.pkl'):
-    model.load_state_dict(torch.load("./model/model.pkl"))
+    model.load_state_dict(torch.load("./model/model.pkl")) # 加载保存模型的参数
 
 # 模型测试
 def test():
