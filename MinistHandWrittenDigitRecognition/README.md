@@ -1,6 +1,3 @@
-@[TOC](文章目录)
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
-
 # 项目简介
 &nbsp;&nbsp;本项目名为：基于CNN的MINIST手写数字识别项目。本项目完整的实现了MINIST手写数字的识别，模型的准确率高达$97\%$，损失率仅为$1\%$。利用训练好的模型去测试自定义手写数字，也可以准确识别！
 <hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
